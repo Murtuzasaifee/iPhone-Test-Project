@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Jenkins-Test.xcscheme</key>
+		<key>proscorner.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>56F252CD1AE4F86C0011BA99</key>
+		<key>56F252FF1AE4FCE10011BA99</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>56F252E61AE4F86C0011BA99</key>
+		<key>56F253181AE4FCE10011BA99</key>
 		<dict>
 			<key>primary</key>
 			<true/>

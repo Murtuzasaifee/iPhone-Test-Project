@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "56F252CD1AE4F86C0011BA99"
-               BuildableName = "Jenkins-Test.app"
-               BlueprintName = "Jenkins-Test"
-               ReferencedContainer = "container:Jenkins-Test.xcodeproj">
+               BlueprintIdentifier = "56F252FF1AE4FCE10011BA99"
+               BuildableName = "proscorner.app"
+               BlueprintName = "proscorner"
+               ReferencedContainer = "container:proscorner.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "56F252E61AE4F86C0011BA99"
-               BuildableName = "Jenkins-TestTests.xctest"
-               BlueprintName = "Jenkins-TestTests"
-               ReferencedContainer = "container:Jenkins-Test.xcodeproj">
+               BlueprintIdentifier = "56F253181AE4FCE10011BA99"
+               BuildableName = "proscornerTests.xctest"
+               BlueprintName = "proscornerTests"
+               ReferencedContainer = "container:proscorner.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "56F252E61AE4F86C0011BA99"
-               BuildableName = "Jenkins-TestTests.xctest"
-               BlueprintName = "Jenkins-TestTests"
-               ReferencedContainer = "container:Jenkins-Test.xcodeproj">
+               BlueprintIdentifier = "56F253181AE4FCE10011BA99"
+               BuildableName = "proscornerTests.xctest"
+               BlueprintName = "proscornerTests"
+               ReferencedContainer = "container:proscorner.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "56F252CD1AE4F86C0011BA99"
-            BuildableName = "Jenkins-Test.app"
-            BlueprintName = "Jenkins-Test"
-            ReferencedContainer = "container:Jenkins-Test.xcodeproj">
+            BlueprintIdentifier = "56F252FF1AE4FCE10011BA99"
+            BuildableName = "proscorner.app"
+            BlueprintName = "proscorner"
+            ReferencedContainer = "container:proscorner.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "56F252CD1AE4F86C0011BA99"
-            BuildableName = "Jenkins-Test.app"
-            BlueprintName = "Jenkins-Test"
-            ReferencedContainer = "container:Jenkins-Test.xcodeproj">
+            BlueprintIdentifier = "56F252FF1AE4FCE10011BA99"
+            BuildableName = "proscorner.app"
+            BlueprintName = "proscorner"
+            ReferencedContainer = "container:proscorner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "56F252CD1AE4F86C0011BA99"
-            BuildableName = "Jenkins-Test.app"
-            BlueprintName = "Jenkins-Test"
-            ReferencedContainer = "container:Jenkins-Test.xcodeproj">
+            BlueprintIdentifier = "56F252FF1AE4FCE10011BA99"
+            BuildableName = "proscorner.app"
+            BlueprintName = "proscorner"
+            ReferencedContainer = "container:proscorner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

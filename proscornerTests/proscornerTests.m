@@ -1,6 +1,6 @@
 //
-//  Jenkins_TestTests.m
-//  Jenkins-TestTests
+//  proscornerTests.m
+//  proscornerTests
 //
 //  Created by Murtuza Saifee on 20/04/15.
 //  Copyright (c) 2015 Blisstering. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface Jenkins_TestTests : XCTestCase
+@interface proscornerTests : XCTestCase
 
 @end
 
-@implementation Jenkins_TestTests
+@implementation proscornerTests
 
 - (void)setUp {
     [super setUp];

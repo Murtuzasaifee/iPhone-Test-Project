@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  Jenkins-Test
+//  proscorner
 //
 //  Created by Murtuza Saifee on 20/04/15.
 //  Copyright (c) 2015 Blisstering. All rights reserved.
