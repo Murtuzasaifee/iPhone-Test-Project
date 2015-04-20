@@ -303,7 +303,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "6394601d-8e2a-4d92-9011-8e2d6b3ec1a2";
+				PROVISIONING_PROFILE = "fc526ee6-f254-4847-9090-3b8ed920977a";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -339,7 +339,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "6394601d-8e2a-4d92-9011-8e2d6b3ec1a2";
+				PROVISIONING_PROFILE = "fc526ee6-f254-4847-9090-3b8ed920977a";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -349,11 +349,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Bliss Entertainment, LLC";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Saumil Chheda (9B7V8AF7MQ)";
 				INFOPLIST_FILE = proscorner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b828e1d6-20b8-4edb-bfc1-6f370a320709";
+				PROVISIONING_PROFILE = "fc526ee6-f254-4847-9090-3b8ed920977a";
 			};
 			name = Debug;
 		};
@@ -361,11 +361,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Bliss Entertainment, LLC";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Saumil Chheda (9B7V8AF7MQ)";
 				INFOPLIST_FILE = proscorner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b828e1d6-20b8-4edb-bfc1-6f370a320709";
+				PROVISIONING_PROFILE = "fc526ee6-f254-4847-9090-3b8ed920977a";
 			};
 			name = Release;
 		};
