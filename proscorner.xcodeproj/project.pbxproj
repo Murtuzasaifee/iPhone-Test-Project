@@ -353,6 +353,7 @@
 				INFOPLIST_FILE = proscorner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b828e1d6-20b8-4edb-bfc1-6f370a320709";
 			};
 			name = Debug;
 		};
@@ -364,6 +365,7 @@
 				INFOPLIST_FILE = proscorner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b828e1d6-20b8-4edb-bfc1-6f370a320709";
 			};
 			name = Release;
 		};
