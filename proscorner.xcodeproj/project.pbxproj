@@ -215,8 +215,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Saumil Chheda (9B7V8AF7MQ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Saumil Chheda (9B7V8AF7MQ)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Bliss Entertainment, LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Bliss Entertainment, LLC";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -236,7 +236,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "fc526ee6-f254-4847-9090-3b8ed920977a";
+				PROVISIONING_PROFILE = "6394601d-8e2a-4d92-9011-8e2d6b3ec1a2";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -258,8 +258,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Saumil Chheda (9B7V8AF7MQ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Saumil Chheda (9B7V8AF7MQ)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Bliss Entertainment, LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Bliss Entertainment, LLC";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -272,7 +272,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "fc526ee6-f254-4847-9090-3b8ed920977a";
+				PROVISIONING_PROFILE = "6394601d-8e2a-4d92-9011-8e2d6b3ec1a2";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
