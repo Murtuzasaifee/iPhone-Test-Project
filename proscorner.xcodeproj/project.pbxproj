@@ -13,18 +13,7 @@
 		56F2530F1AE4FCE10011BA99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F2530D1AE4FCE10011BA99 /* Main.storyboard */; };
 		56F253111AE4FCE10011BA99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F253101AE4FCE10011BA99 /* Images.xcassets */; };
 		56F253141AE4FCE10011BA99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56F253121AE4FCE10011BA99 /* LaunchScreen.xib */; };
-		56F253201AE4FCE10011BA99 /* proscornerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F2531F1AE4FCE10011BA99 /* proscornerTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		56F2531A1AE4FCE10011BA99 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 56F252F81AE4FCE10011BA99 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 56F252FF1AE4FCE10011BA99;
-			remoteInfo = proscorner;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		56F253001AE4FCE10011BA99 /* proscorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proscorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +26,12 @@
 		56F2530E1AE4FCE10011BA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56F253101AE4FCE10011BA99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		56F253131AE4FCE10011BA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		56F253191AE4FCE10011BA99 /* proscornerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = proscornerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F2531E1AE4FCE10011BA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56F2531F1AE4FCE10011BA99 /* proscornerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = proscornerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		56F252FD1AE4FCE10011BA99 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		56F253161AE4FCE10011BA99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				56F253001AE4FCE10011BA99 /* proscorner.app */,
-				56F253191AE4FCE10011BA99 /* proscornerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,24 +119,6 @@
 			productReference = 56F253001AE4FCE10011BA99 /* proscorner.app */;
 			productType = "com.apple.product-type.application";
 		};
-		56F253181AE4FCE10011BA99 /* proscornerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 56F253261AE4FCE10011BA99 /* Build configuration list for PBXNativeTarget "proscornerTests" */;
-			buildPhases = (
-				56F253151AE4FCE10011BA99 /* Sources */,
-				56F253161AE4FCE10011BA99 /* Frameworks */,
-				56F253171AE4FCE10011BA99 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				56F2531B1AE4FCE10011BA99 /* PBXTargetDependency */,
-			);
-			name = proscornerTests;
-			productName = proscornerTests;
-			productReference = 56F253191AE4FCE10011BA99 /* proscornerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,11 +131,6 @@
 					56F252FF1AE4FCE10011BA99 = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = CK9Y567QQ3;
-					};
-					56F253181AE4FCE10011BA99 = {
-						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = CK9Y567QQ3;
-						TestTargetID = 56F252FF1AE4FCE10011BA99;
 					};
 				};
 			};
@@ -191,7 +148,6 @@
 			projectRoot = "";
 			targets = (
 				56F252FF1AE4FCE10011BA99 /* proscorner */,
-				56F253181AE4FCE10011BA99 /* proscornerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -204,13 +160,6 @@
 				56F2530F1AE4FCE10011BA99 /* Main.storyboard in Resources */,
 				56F253141AE4FCE10011BA99 /* LaunchScreen.xib in Resources */,
 				56F253111AE4FCE10011BA99 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		56F253171AE4FCE10011BA99 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,23 +176,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		56F253151AE4FCE10011BA99 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				56F253201AE4FCE10011BA99 /* proscornerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		56F2531B1AE4FCE10011BA99 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 56F252FF1AE4FCE10011BA99 /* proscorner */;
-			targetProxy = 56F2531A1AE4FCE10011BA99 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		56F2530D1AE4FCE10011BA99 /* Main.storyboard */ = {
@@ -369,46 +302,6 @@
 			};
 			name = Release;
 		};
-		56F253271AE4FCE10011BA99 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = proscornerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/proscorner.app/proscorner";
-			};
-			name = Debug;
-		};
-		56F253281AE4FCE10011BA99 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = proscornerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/proscorner.app/proscorner";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -426,15 +319,6 @@
 			buildConfigurations = (
 				56F253241AE4FCE10011BA99 /* Debug */,
 				56F253251AE4FCE10011BA99 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		56F253261AE4FCE10011BA99 /* Build configuration list for PBXNativeTarget "proscornerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				56F253271AE4FCE10011BA99 /* Debug */,
-				56F253281AE4FCE10011BA99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
